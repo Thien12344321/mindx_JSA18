@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>suc manh cua javascript</h1>
+    <!-- cach 1 -->
+    <script>
+        //la noi de viet javascript  <-- 
+        console.log('hello world')
+        //Quy tac camelcase
+        // kiểu dữ liệu number ( số nguyên, số thực)
+        let winner = 2 
+        let price = 9.98
+        // kiểu dữ liệu boolen (false , true)
+        let isEligible = false;
+        //string , chuỗi kí tự
+        let camelCase = "hello";
+        //null - giá trị rỗng
+        let selectedItem = null;
+        //undefined - biến nhưng chx có giá trị
+        let result;
+
+        let str = "Mindx Technology School";
+        //truy vấn kí tự bên trog string - index : chỉ số : vị trí của phần tử bên trog chuỗi
+        console.log(str[0]) //in ra kí tự "M" ở bên trog chuỗi 
+
+        //đếm số kí tự bên trog chuỗi
+        console.log(str.length)
+
+        let upperString = str.toLocaleUpperCase()
+        console.log(upperString)
+        let lowerString = str.toLocaleLowerCase()
+        console.log(lowerString)
+
+        //nối chuỗi
+        let str1 = "Xin chao"
+        let str2 = "cac ban lop gsa18"
+
+        // cách 1
+        let combinedString = str1 + str2;
+        let combinedStringWithWhiteSpace = str1 + " " + str2
+
+        //cách 2: template literals ${} với dấu `` (backticks)
+        let combinedStringTemplateLiterals = `${str1} ${str2}`
+
+        console.log(combinedString)
+        console.log(combinedStringWithWhiteSpace)
+        console.log(combinedStringTemplateLiterals)
+    </script> 
+</body>
+</html>
